@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Signup Page</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="signupcss.css">
+</head>
+<body>
+<div>
+    <nav>
+        <div class="logopic"><img src="image/banklogo.png" alt=""></div>
+        <div class="logo">International Bank of Hercules</div>
+        <input type="checkbox" name="" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li><a  href="home.html">Home</a></li>
+            
+            <li><a class="active" href="signup.html">Customer Signup</a></li>
+            <li><a href="login.html">Customer Login</a></li>
+            <li><a href="admin.html">Admin Login</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+   
+    </nav>
+</div>
+    <div class="container">
+        <h2>Customer Signup Page</h2>
+        <div class="form-container">
+        <form action="signupPage">
+
+            <div class="input-name">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="First Name" name="firstname" class="name">
+
+                <span>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Last Name" name="lastname" class="name">
+                </span>
+            </div>
+
+            <div class="input-name">
+                <i class="fa-solid fa-phone fa-user"></i>
+                <input type="tel" placeholder="Mobile Number" name="mobile" class="text-name">
+            </div>
+            <div class="input-name">
+                <i class="fa-solid fa-envelope fa-user"></i>
+                <input type="text" placeholder="Email" name="email" class="text-name">
+            </div>
+            
+            <div class="input-name">
+                <i class="fa-solid fa-lock "></i>
+                <input type="text" placeholder="Password" name="password" class="text-name" e>
+            </div>
+            <div class="input-name">
+                <i class="fa-solid fa-lock " ></i>
+                <input type="text" placeholder="Confirm Password" name="confirmpassword" class="text-name">
+            </div>
+
+            <div class="input-name">
+                <i class="fa-regular fa-calendar-days "></i>
+                <span class="date">Date Of Birth: <input type="date" name="dob" class="dob"></span>
+            </div>
+            
+            <div class="input-name">
+                <i class="fa-solid fa-person"></i>
+                <span class="date"> <label for="" style="margin-right: 25px;">Gender:</label></span>
+                <input type="radio" class="radio-button" name="gender" value="male" required="required">Male
+                
+                <input type="radio" class="radio-button" name="gender" value="female" required="required">Female
+                
+            </div>
+            <div class="input-name">
+                <select name="country" id="" class="country">
+                    <option value="">Select a Country</option>
+                    <option value="" >India</option>
+                    <option value="">USA</option>
+                    <option value="">UAE</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">Nepal</option>
+                    <option value="">Srilank</option>
+                    <option value="">Pakistan</option>
+                    <option value="">Arab</option>
+                </select>
+                <div class="arrow"></div>
+            </div>
+            <div class="input-name">
+               <input type="checkbox" name="terms" id="" class="check-button">
+               <label for="">I accept the terms and Conditions</label>
+            </div>
+                <div class="btn">
+                    <div class="sbtn">
+                        <button type="submit">Signup</button>
+                    </div>
+                    <div class="sbtn">
+                        <button type="reset">Cancle</button>
+                    </div>
+                </div>
+                
+        </form>
+
+        </div>
+    </div>
+
+    <div class="copy">
+        <p>Copyright &#169; IBOH&#8482; 2023 Contributed by Fajlul_Haque❤️. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

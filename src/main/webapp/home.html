@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="home.css">
+</head>
+   
+ 
+<body>
+    
+    <nav>
+        <div class="logopic"><img src="image/banklogo.png" alt=""></div>
+        <div class="logo">International Bank of Hercules</div>
+        <input type="checkbox" name="" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            
+            <li><a href="signup.html">Customer Signup</a></li>
+            <li><a href="login.html">Customer Login</a></li>
+            <li><a href="admin.html">Admin Login</a></li>
+           <!--  <li><a href="account.html">Account</a></li>-->
+        </ul>
+
+    </nav>
+
+
+<div class="screen">
+<div class="body">
+    <div class="aside">
+        <div><a href="#">Home loan</a></div>
+        <div><a href="#">Personal loans</a></div>
+        <div><a href="#">Education loan</a></div>
+        <div><a href="#">Vehicle loans</a></div>
+        <div><a href="#">Gold loan</a></div>
+
+    </div>
+    <div class="article" id="article">
+        
+    </div>
+</div>
+<div class="footer">
+    <div>
+        <a href="#">About</a>
+        <a href="#">About Us</a><br><br>
+        <a href="#">Contributors</a><br><br>
+        <a href="#">Advertising Info</a><br><br>
+    
+    </div>
+    <div>
+        <a href="#">Contact Us</a>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/fajlul.haque.5201"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/fajlulh371"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a></li>
+                <li><a href="https://github.com/fajlul1711"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+    
+
+</div>
+    <div><a href="#">Location</a>
+        <div id="map" style="height: 150px; width: 100%; z-index: 0;">
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" 
+            async defer></script>
+    
+    <script>
+        function initMap() {
+            var mapOptions = {
+                center: { lat: 22.5843, lng: 88.4895 },
+                zoom: 8
+            };
+
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        }
+    </script>
+    </div>
+    </div>
+    <div>
+        <a href="#">Terms and Condition</a>
+        <p>2.1 The Customer agrees to give instructions to deal with all the matters in connection with the Bank Account(s) and the Service(s) in accordance with the Agreement.</p>
+    </div>
+    
+
+</div>
+
+<div class="copy">
+    <p>Copyright &#169; IBOH&#8482; 2023 Contributed by Fajlul_Haque❤️. All rights reserved.</p>
+</div>
+
+
+
+
+
+
+<script src="script.js"></script>
+</div>
+</body>
+</html>
